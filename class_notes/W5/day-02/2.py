@@ -28,10 +28,8 @@ def read_csv_data(file_name):
 
             data[column[0].rstrip("\n")] = [column[1], column[2], float(column[3]), float(column[4])]
 
+        file.close()
 
-
-
-        file.close()   # terminate the bond between the file object and the object itself
     except:
         print("-------------File can not be found-------------")
 
