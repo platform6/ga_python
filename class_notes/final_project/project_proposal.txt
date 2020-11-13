@@ -1,0 +1,11 @@
+Hey Suresh/Jeremeny, 
+
+Project Proposal
+
+I was thinking the other day about whether more movies have been made with the word 'fire' or 'ice' in the title and have decided to craft a solution to that data question using Python. 
+My intention is to use the IMDbPY (https://imdbpy.github.io/) package as a means to query IMDb and to use Pandas/matplotlib to analyze the query results to determine over time by release date the number of movies
+made with the search term and create a data visualization with the results.  I also started looking at using Big Huge Thesaurus API (https://words.bighugelabs.com/) to get related words to the search terms in the instance where a specific search didn't 
+yield many results to switch it to a broader search with all the synonms for the word. As a strech goal I was going to attempt to get it to display on a web page similar to this medium article using Flask:  https://medium.com/@amelie_yeh/data-visualization-on-the-web-with-flask-11a3b1f7a476
+
+I have the skeleton of the project in github @ https://github.com/platform6/ga_final_project
+
